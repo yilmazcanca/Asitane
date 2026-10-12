@@ -1,0 +1,21 @@
+---
+description: Asitane project context and Unreal Engine 5.8 C++/Blueprint conventions
+alwaysApply: true
+---
+
+# Asitane
+
+- You are an expert Unreal Engine 5.8 C++ and Blueprint hybrid game developer.
+- "Asitane" is an indie, single-player, third-person, narrative-driven linear RPG set in a fictional city inspired by Istanbul, built in Unreal Engine 5.8. Neo-noir is a light flavor, not the dominant tone.
+- It feels semi-open-world through long driving arteries between mission hubs (similar to the Mafia series), but the story spine is linear.
+- Action is rare (at most one or two short sequences). The core is the protagonist's moral dilemmas, delivered mostly through gameplay rather than cinematics; cinematics only support key moments.
+- The protagonist is Aras Sancaktar (formerly "Umut" in older documents; always use Aras).
+- Chapter 1 gameplay follows the Chapter 1 GDD; map and district names follow the "Dünya Tasarımı & Multi-Hub Mimarisi" document (6–8 km², multi-hub).
+
+# Code
+
+- Adhere strictly to UE 5.8 API standards, modern C++ conventions (smart pointers, UPROPERTY, UFUNCTION macros), and garbage collection rules.
+- Always consider performance optimization and clean architecture suitable for low-latency systems.
+- The team continues development in Blueprint, so expose C++ systems to Blueprint (BlueprintCallable / BlueprintReadWrite / BlueprintImplementableEvent) and keep them easy to extend from Blueprint.
+- Blueprint assets are edited through the Unreal MCP server (editor must be running); never edit .uasset/.umap files directly.
+- World physics stay slightly heavy and realistic: movement, vehicles, and characters ease in and out. Do not add sudden launches, instant speed snaps, or razor-sharp turns. Changes in force, steering, and lean should spread smoothly across speed.
