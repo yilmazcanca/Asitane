@@ -1,0 +1,9 @@
+/Intermediate/
+/Binaries/
+/DerivedDataCache/
+/Saved/
+/.vs/
+/.idea/
+/Build/
+*.sln
+*.vcxproj

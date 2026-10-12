@@ -1,0 +1,18 @@
+[
+	{
+		"file": "C:\\Users\\yilma\\Documents\\Unreal Projects\\Asitane\\Source\\Asitane\\Asitane.cpp",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe",
+			"@C:\\Users\\yilma\\Documents\\Unreal Projects\\Asitane\\.vscode\\compileCommands_Asitane\\Asitane.0.rsp"
+		],
+		"directory": "C:\\Program Files\\Epic Games\\UE_5.8\\Engine\\Source"
+	},
+	{
+		"file": "C:\\Users\\yilma\\Documents\\Unreal Projects\\Asitane\\Source\\Asitane\\AsitaneBaseCPlusPlus.cpp",
+		"arguments": [
+			"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64\\cl.exe",
+			"@C:\\Users\\yilma\\Documents\\Unreal Projects\\Asitane\\.vscode\\compileCommands_Asitane\\Asitane.0.rsp"
+		],
+		"directory": "C:\\Program Files\\Epic Games\\UE_5.8\\Engine\\Source"
+	}
+]

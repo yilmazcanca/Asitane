@@ -7,9 +7,9 @@
 /**
  * 
  */
-class ASITANE_API FirstCPlusPlusClass
+class ASITANE_API AsitaneBaseCPlusPlus
 {
 public:
-	FirstCPlusPlusClass();
-	~FirstCPlusPlusClass();
+	AsitaneBaseCPlusPlus();
+	~AsitaneBaseCPlusPlus();
 };
